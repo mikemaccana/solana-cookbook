@@ -59,7 +59,7 @@ be used, which you can find below based on your language.
 ## How to create a new Token
 
 Creating tokens is done by creating what is called a "mint account".
-This mint account is later used to mint tokens to a token account and
+This mint account is later used to mint tokens to a user's token account and
 create the initial supply.
 
 <SolanaCodeGroup>
@@ -105,8 +105,8 @@ you will need to get the account info for the token mint.
 
 ## How to create a token account
 
-A token account is required in order to hold tokens. Every token mint
-has a different token account associated with it.
+A token account is required in order to hold tokens. Users have at least 
+one token account for every token mint they have tokens for.
 
 Associated Token Accounts are deterministicly created
 accounts for every keypair. ATAs are the recommended method
@@ -200,8 +200,7 @@ account, you also specific a mint too.
 
 ## How to mint tokens
 
-When you mint tokens, you increase the supply and transfer the new tokens
-to a specific token account.
+When you mint tokens, you increase the supply and transfer the new tokens to a user's token account.
 
 <SolanaCodeGroup>
   <SolanaCodeGroupItem title="TS" active>
