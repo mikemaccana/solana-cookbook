@@ -59,8 +59,7 @@ be used, which you can find below based on your language.
 ## How to create a new Token
 
 Creating tokens is done by creating what is called a "mint account".
-This mint account is later used to mint tokens to a token account and
-create the initial supply.
+This mint account is later used to mint tokens to a token account.
 
 <SolanaCodeGroup>
   <SolanaCodeGroupItem title="TS" active>
